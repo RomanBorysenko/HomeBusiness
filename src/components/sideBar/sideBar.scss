@@ -1,0 +1,432 @@
+.sidebar-usercab {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 117px;
+  height: 100vh;
+  background-color: rgba(red, .5);
+  background-image: url(/assets/images/sidebar.png);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  margin-top: 100px;
+  z-index: 0;
+  border:none;
+  .icon-top-ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    margin-top: 1em;
+    span{
+      margin-top: -2px;
+    }
+    .icon-li-louder{
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 50px;
+      height: 70px;
+      transition: width .5s, background-color .5s;
+      margin-bottom: 5px;
+      .louder{
+        margin-left: 30px;
+      }
+    }
+    .icon-li-louder {
+      &:hover {
+        background-color: #cb206e;
+        width: 310px;
+        height: 70px;
+        border-radius: 0 20px 20px 0;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        span {
+          width: auto;
+          opacity: 1;
+          visibility: visible;
+
+          animation-delay: 0s;
+          animation-name: opacity-anim;
+          animation-duration: .5s;
+          animation-iteration-count: 1;
+          animation-timing-function: linear;
+
+
+        }
+      }
+    }
+    .icon-li-case {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 50px;
+      height: 70px;
+      transition: width .5s, background-color .5s;
+      margin-bottom: 5px;
+      .case {
+        margin-left: 30px;
+      }
+    }
+    .icon-li-case:hover {
+      &:hover {
+        background-color: #d52a84;
+        width: 310px;
+        height: 70px;
+        border-radius: 0 20px 20px 0;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        span {
+          width: auto;
+          opacity: 1;
+          visibility: visible;
+
+          animation-delay: 0s;
+          animation-name: opacity-anim;
+          animation-duration: .5s;
+          animation-iteration-count: 1;
+          animation-timing-function: linear;
+        }
+      }
+    }
+    .icon-li-chat {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 50px;
+      height: 70px;
+      transition: width .5s, background-color .5s;
+      margin-bottom: 5px;
+      .chat{
+        margin-left: 30px;
+      }
+    }
+    .icon-li-chat:hover {
+      &:hover {
+        background-color: #a928c2;
+        width: 310px;
+        height: 70px;
+        border-radius: 0 20px 20px 0;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        span {
+          width: auto;
+          opacity: 1;
+          visibility: visible;
+
+          animation-delay: 0s;
+          animation-name: opacity-anim;
+          animation-duration: .5s;
+          animation-iteration-count: 1;
+          animation-timing-function: linear;
+        }
+      }
+    }
+    .icon-li-storrage{
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 50px;
+      height: 70px;
+      transition: width .5s, background-color .5s;
+      margin-bottom: 5px;
+      .storrage{
+        margin-left: 33px;
+      }
+    }
+    .icon-li-storrage:hover {
+      &:hover {
+        background-color: #5224d4;
+        width: 310px;
+        height: 70px;
+        border-radius: 0 20px 20px 0;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        span {
+          width: auto;
+          opacity: 1;
+          visibility: visible;
+
+          animation-delay: 0s;
+          animation-name: opacity-anim;
+          animation-duration: .5s;
+          animation-iteration-count: 1;
+          animation-timing-function: linear;
+        }
+      }
+    }
+    .icon-li-clock{
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 50px;
+      height: 70px;
+      transition: width .5s, background-color .5s;
+      margin-bottom: 5px;
+      .clock{
+        margin-left: 30px;
+      }
+    }
+    .icon-li-clock:hover {
+      &:hover {
+        background-color: #3049ab;
+        width: 310px;
+        height: 70px;
+        border-radius: 0 20px 20px 0;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        span {
+          width: auto;
+          opacity: 1;
+          visibility: visible;
+
+          animation-delay: 0s;
+          animation-name: opacity-anim;
+          animation-duration: .5s;
+          animation-iteration-count: 1;
+          animation-timing-function: linear;
+        }
+      }
+    }
+    .icon-li-calendar{
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 50px;
+      height: 70px;
+      transition: width .5s, background-color .5s;
+      margin-bottom: 5px;
+      .calendar{
+        margin-left: 30px;
+      }
+    }
+    .icon-li-calendar:hover {
+      &:hover {
+        background-color: #2b8cd4;
+        width: 310px;
+        height: 70px;
+        border-radius: 0 20px 20px 0;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        span {
+          width: auto;
+          opacity: 1;
+          visibility: visible;
+
+          animation-delay: 0s;
+          animation-name: opacity-anim;
+          animation-duration: .5s;
+          animation-iteration-count: 1;
+          animation-timing-function: linear;
+        }
+      }
+    }
+  }
+  .icon-li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 70px;
+    transition: width .5s, background-color .5s;
+    margin-bottom: 5px;
+    .louder {
+      margin-left: 30px;
+    }
+    .case {
+      margin-left: 30px;
+    }
+    .chat {
+      margin-left: 30px;
+    }
+    .storrage {
+      margin-left: 33px;
+    }
+    .clock {
+      margin-left: 30px;
+    }
+    .calendar {
+      margin-left: 30px;
+    }
+
+
+    &:nth-child(2n) {
+      &:hover {
+        background-color: #d52a84;
+      }
+    }
+    &:nth-child(3n) {
+      &:hover {
+        background-color: #a928c2;
+      }
+    }
+    &:nth-child(4n) {
+      &:hover {
+        background-color: #5224d4;
+      }
+    }
+    &:nth-child(5n) {
+      &:hover {
+        background-color: #3049ab;
+      }
+    }
+    &:nth-child(6n) {
+      &:hover {
+        background-color: #2b8cd4;
+      }
+    }
+
+
+
+    &:hover {
+      width: 310px;
+      height: 70px;
+      background-color: #cb206e;
+      border-radius: 0 20px 20px 0;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+      span {
+        width: auto;
+        opacity: 1;
+        visibility: visible;
+
+        animation-delay: 0s;
+        animation-name: opacity-anim;
+        animation-duration: .5s;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+      }
+      .img {
+      }
+    }
+
+  }
+  span {
+    position: absolute;
+    top: 55%;
+    left: 100px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: opacity .5s, visibility .5s;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .img {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    transition: margin .5s;
+  }
+  .icon-bottom ul {
+    margin-bottom: 9em;
+    .icon-li-envelope {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 50px;
+      height: 70px;
+      transition: width .5s, background-color .5s;
+      margin-bottom: 5px;
+      .envelope {
+        margin-left: 30px;
+      }
+    }
+    .icon-li-envelope:hover {
+      &:hover {
+        background-color: #1ba675;
+        width: 310px;
+        height: 70px;
+        border-radius: 0 20px 20px 0;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        span {
+          width: auto;
+          opacity: 1;
+          visibility: visible;
+          margin-top: -2px;
+
+          animation-delay: 0s;
+          animation-name: opacity-anim;
+          animation-duration: .5s;
+          animation-iteration-count: 1;
+          animation-timing-function: linear;
+        }
+      }
+    }
+    .icon-li-search {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 50px;
+      height: 70px;
+      transition: width .5s, background-color .5s;
+      margin-bottom: 5px;
+      .search {
+        margin-left: 30px;
+      }
+    }
+    .icon-li-search:hover {
+      &:hover {
+        background-color: #709c1d;
+        width: 310px;
+        height: 70px;
+        border-radius: 0 20px 20px 0;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        span {
+          opacity: 1;
+          visibility: visible;
+          text-transform: none;
+          position: absolute;
+          top: 40%;
+          left: 80px;
+          max-width: 200px;
+
+          animation-delay: 0s;
+          animation-name: opacity-anim;
+          animation-duration: .5s;
+          animation-iteration-count: 1;
+          animation-timing-function: linear;
+            .search-micro{
+
+           }
+        }
+      }
+    }
+    .icon-li-logout {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 50px;
+      height: 70px;
+      transition: width .5s, background-color .5s;
+      margin-bottom: 5px;
+      .logout {
+        margin-left: 30px;
+      }
+    }
+    .icon-li-logout:hover {
+      &:hover {
+        background-color: #239146;
+        width: 310px;
+        height: 70px;
+        border-radius: 0 20px 20px 0;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        span {
+          width: auto;
+          opacity: 1;
+          visibility: visible;
+          margin-top: -2px;
+
+          animation-delay: 0s;
+          animation-name: opacity-anim;
+          animation-duration: .5s;
+          animation-iteration-count: 1;
+          animation-timing-function: linear;
+        }
+      }
+    }
+  }
+}
+@keyframes opacity-anim{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
