@@ -1,5 +1,5 @@
 {
-  "name": "jw_internal_react",
+  "name": "HomeBusiness",
   "version": "1.0.0",
   "main": "src/index.js",
   "description": "",
@@ -24,15 +24,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://reactDevPro@bitbucket.org/Jelvix/jw_internal_react.git"
+    "url": "git+https://github.com/RomanBorysenko/HomeBusiness.git"
   },
-  "author": "jelvix team",
+  "author": "react dev pro",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/Jelvix/jw_internal_react#readme",
+  "homepage": "https://github.com/RomanBorysenko/HomeBusiness#readme",
   "babel": {
     "presets": [
       "env",
-      "jw_internal_react",
       "es2015",
       "react"
     ],

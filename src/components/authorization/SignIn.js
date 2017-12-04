@@ -93,14 +93,6 @@ class SignIn extends Component {
                 />
                 <div className="animation-wrap">
                     <div className="anim-line"></div>
-                    <div className="anim-polygon">
-                        <svg className="polygon-main">
-                            <use xlinkHref="/assets/images/sprite.svg#hexagon"></use>
-                        </svg>
-                        <div className="hexagon-color-main">
-                            <img src="/assets/images/hexagon-color.png" alt="" className="hexagon-color"/>
-                        </div>
-                    </div>
                     <div className="anim-form-test">
                         <div className="form-wrapper">
                             <div className="form-group">
@@ -114,7 +106,7 @@ class SignIn extends Component {
                                             hintText="E-mail"
                                             name='email'
                                         />
-                                        <div className="label"><span>@jelvix.com</span></div>
+                                        <div className="label"><span>@gmail.com</span></div>
                                     </div>
                                 </div>
                                 <div className="password">
